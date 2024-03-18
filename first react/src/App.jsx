@@ -135,11 +135,13 @@
 //   );
 // }
 import React from "react";
-import Coffee from "./cofee/cofee.jsx";
+import Coffee from "./cofee/cofee";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="menu">
+      <h1 id="menu">menu :</h1>
       <Coffee />
     </div>
   );
